@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mWhite"
+    tools:context="application.register.com.portfolio_appication.MainScreenActivity">
+
+
+    <Button
+        android:text="@string/app_popular_movies"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnFirstApp"
+        android:background="@color/mBlack"
+        style="@style/QTextWhite"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="400dp"
+        android:layout_marginEnd="64dp"
+        android:onClick="selectFirstApp"/>
+
+    <Button
+        android:text="@string/app_stock_hawk"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSecondApp"
+        android:background="@color/mBlack"
+        style="@style/QTextWhite"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="272dp"
+        android:layout_marginEnd="64dp"
+        android:onClick="selectSecondApp"/>
+
+    <Button
+        android:text="@string/app_build_it_bigger"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnThirdApp"
+        android:background="@color/mBlack"
+        style="@style/QTextWhite"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="336dp"
+        android:layout_marginEnd="64dp"
+        android:onClick="selectThirdApp"/>
+
+    <Button
+        android:text="@string/app_make_your_app_material"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnFourthApp"
+        android:background="@color/mBlack"
+        style="@style/QTextWhite"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="208dp"
+        android:layout_marginEnd="64dp"
+        android:onClick="selectFourthApp"/>
+
+    <Button
+        android:text="@string/app_go_ubiquitous"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnFifthApp"
+        android:background="@color/mBlack"
+        style="@style/QTextWhite"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="136dp"
+        android:layout_marginEnd="64dp"
+        android:onClick="selectFifthApp"/>
+
+    <Button
+        android:text="@string/app_capstone"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSixthApp"
+        android:background="@color/mBlack"
+        style="@style/QTextWhite"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="72dp"
+        android:layout_marginEnd="64dp"
+        android:onClick="selectSixthApp"/>
+
+    <TextView
+        android:text="@string/app_title_name"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        style="@style/QTextBlack"
+        tools:layout_editor_absoluteY="38dp"
+        tools:layout_editor_absoluteX="61dp"
+        android:id="@+id/txtTitle"
+        android:textAlignment="center" />
+
+
+</android.support.constraint.ConstraintLayout>
